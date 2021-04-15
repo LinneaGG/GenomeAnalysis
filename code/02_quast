@@ -1,0 +1,4 @@
+load quast
+
+quast.py -R ../../../raw_data/reference/OBMB01.fasta --threads 2 ../01_genome_assembly/assembly.contigs.fasta
+
