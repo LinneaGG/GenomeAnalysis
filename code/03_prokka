@@ -1,0 +1,4 @@
+load module bioinfo-tools
+load module prokka 
+
+prokka --prefix annotation ../01_genome_assembly/assembly.contigs.fasta
