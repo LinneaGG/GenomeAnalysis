@@ -20,5 +20,9 @@ ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
                                        design= ~ condition) 
 
 
-plotMA(DESeq(ddsHTSeq))
+ddsHTSeq <- DESeq(ddsHTSeq)
+resultsNames(ddsHTSeq)
 
+res <- lfcShrink(ddsHTSeq, coef = "condition_continuous_vs_batch", type = "apeglm")
+
+plotMA(res)
