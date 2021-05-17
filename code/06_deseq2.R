@@ -25,4 +25,4 @@ resultsNames(ddsHTSeq)
 
 res <- lfcShrink(ddsHTSeq, coef = "condition_continuous_vs_batch", type = "apeglm")
 
-plotMA(res)
+plotMA(res)plotMA(res, ylim=c(-6,6))
