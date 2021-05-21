@@ -26,3 +26,9 @@ resultsNames(ddsHTSeq)
 res <- lfcShrink(ddsHTSeq, coef = "condition_continuous_vs_batch", type = "apeglm")
 
 plotMA(res)plotMA(res, ylim=c(-6,6))
+
+library(ReportingTools)
+
+report <- HTMLReport(shortName = 'DiffExp_analysis_chelsea', title = 'Differential expression analysis on continous vs batch cultures', reportDirectory = ".")
+publish(ddsHTSeq, report, pvalueCutoff=0.05, make.plots = TRUE, factor = sampleTable$condition, reportDir = ".")
+finish(report)
