@@ -1,0 +1,37 @@
+#Results from using grep in annotation.gff
+
+#Over 4 logFC:
+
+tig00000001     Prodigal:2.6    CDS     1335625 1337358 .       +       0       ID=LBJNEJMG_01410;eC_number=1.8.99.2;Name=aprA;gene=aprA;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:T2G6Z9;locus_tag=LBJNEJMG_01410;product=Adenylylsulfate reductase subunit alpha
+
+tig00000001     Prodigal:2.6    CDS     1337342 1337686 .       +       0       ID=LBJNEJMG_01411;Name=aprB;gene=aprB;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:T2G899;locus_tag=LBJNEJMG_01411;product=Adenylylsulfate reductase subunit beta
+
+tig00000001     Prodigal:2.6    CDS     1919843 1920253 .       -       0       ID=LBJNEJMG_01958;inference=ab initio prediction:Prodigal:2.6;locus_tag=LBJNEJMG_01958;product=hypothetical protein
+
+tig00000001     Prodigal:2.6    CDS     1920488 1920874 .       -       0       ID=LBJNEJMG_01960;inference=ab initio prediction:Prodigal:2.6;locus_tag=LBJNEJMG_01960;product=hypothetical protein
+
+tig00000001     Prodigal:2.6    CDS     1920933 1921379 .       -       0       ID=LBJNEJMG_01961;inference=ab initio prediction:Prodigal:2.6;locus_tag=LBJNEJMG_01961;product=hypothetical protein
+
+tig00000001     Prodigal:2.6    CDS     1921396 1921722 .       -       0       ID=LBJNEJMG_01962;inference=ab initio prediction:Prodigal:2.6;locus_tag=LBJNEJMG_01962;product=hypothetical protein
+
+tig00000001     Prodigal:2.6    CDS     2411339 2412982 .       +       0       ID=LBJNEJMG_02467;eC_number=1.8.7.1;Name=sir;gene=sir;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P9WJ03;locus_tag=LBJNEJMG_02467;product=Sulfite reductase [ferredoxin]
+
+#Under -4 logFC: 
+
+tig00000001     Prodigal:2.6    CDS     1137632 1138138 .       +       0       ID=LBJNEJMG_01186;Name=fliL;gene=fliL;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:B8GXB6;locus_tag=LBJNEJMG_01186;product=Flagellar FliL protein
+
+tig00000001     Prodigal:2.6    CDS     1138582 1139103 .       +       0       ID=LBJNEJMG_01188;inference=ab initio prediction:Prodigal:2.6;locus_tag=LBJNEJMG_01188;product=hypothetical protein
+
+tig00000001     Prodigal:2.6    CDS     1141062 1142150 .       +       0       ID=LBJNEJMG_01192;Name=flhB_1;gene=flhB_1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P40727;locus_tag=LBJNEJMG_01192;product=Flagellar biosynthetic protein FlhB
+
+tig00000001     Prodigal:2.6    CDS     1462228 1463058 .       -       0       ID=LBJNEJMG_01527;inference=ab initio prediction:Prodigal:2.6;locus_tag=LBJNEJMG_01527;product=hypothetical protein
+
+tig00000001     Prodigal:2.6    CDS     1674667 1675344 .       -       0       ID=LBJNEJMG_01729;Name=cc4_1;gene=cc4_1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P00106;locus_tag=LBJNEJMG_01729;product=Cytochrome c4
+
+tig00000001     Prodigal:2.6    CDS     1875890 1879072 .       -       0       ID=LBJNEJMG_01920;Name=cusA;gene=cusA;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P38054;locus_tag=LBJNEJMG_01920;product=Cation efflux system protein CusA
+
+tig00000001     Prodigal:2.6    CDS     1879069 1880328 .       -       0       ID=LBJNEJMG_01921;Name=cusB_3;gene=cusB_3;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P77239;locus_tag=LBJNEJMG_01921;product=Cation efflux system protein CusB
+
+tig00000001     Prodigal:2.6    CDS     1880318 1881760 .       -       0       ID=LBJNEJMG_01922;inference=ab initio prediction:Prodigal:2.6;locus_tag=LBJNEJMG_01922;product=hypothetical protein
+
+tig00000001     Prodigal:2.6    CDS     2325485 2326867 .       +       0       ID=LBJNEJMG_02384;eC_number=1.9.3.1;Name=ccoN1_2;gene=ccoN1_2;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:D9IA43;locus_tag=LBJNEJMG_02384;product=Cbb3-type cytochrome c oxidase subunit CcoN1
